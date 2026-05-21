@@ -1,0 +1,18 @@
+# Environnement et secrets
+.env
+.env.local
+*.log
+
+# Dépendances
+node_modules/
+vendor/
+
+# Dossiers d'IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Fichiers de build
+dist/
+build/
