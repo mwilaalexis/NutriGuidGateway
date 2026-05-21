@@ -1,18 +1,45 @@
-# Environnement et secrets
+## -- ÉCOSYSTEME .NET --
+# Fichiers de build et binaires (compilation)
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Fichiers utilisateur et configurations locales
+*.user
+*.userosscache
+*.sln.docstates
+
+# Outils de diagnostic et rapports de plantage
+*.suo
+*.userprefs
+*.ndoc
+*.dbmdl
+*.jsproj.user
+*.sqlproj.user
+*.cref
+
+## -- SÉCURITÉ & SECRETS --
+# Paramètres d'applications locaux et secrets de développement
+appsettings.Development.json
+.secrets.json
 .env
-.env.local
-*.log
 
-# Dépendances
-node_modules/
-vendor/
-
-# Dossiers d'IDE et système
-.vscode/
+## -- OUTILS ET EDITEURS --
+# Visual Studio / Rider / VS Code
+.vs/
 .idea/
-.DS_Store
-Thumbs.db
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.iml
 
-# Fichiers de build
-dist/
-build/
+# Dépendances et packages
+packages/
+artifacts/
+_ReSharper*/
+
+## -- ARCHIVES ET LOGS --
+*.log
+*.zip
+*.tar.gz
